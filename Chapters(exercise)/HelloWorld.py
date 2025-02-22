@@ -27,5 +27,3 @@ print('Hello , world!')
 
 # print(Hello , world!)  this is error because (without a comma) 
 
-
-
