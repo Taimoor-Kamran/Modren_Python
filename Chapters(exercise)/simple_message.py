@@ -9,12 +9,12 @@
 # message.
 
 
-message = "Hello World"
+message:str = "Hello World"
 print(message)
 
-message = "python is fun"
+message:str = "python is fun"
 print(message)
 
-message = "but python is important"
+message:str = "but python is important"
 print(message)
 
