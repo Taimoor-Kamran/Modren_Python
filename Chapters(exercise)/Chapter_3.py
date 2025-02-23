@@ -82,4 +82,19 @@ guests.append("Sir Ali Aftab")
 for guest in guests:
     print(f"Dear {guest}, I would be honored to have you join me for inviting")
 
-    
+guests: list[str] = ['Sir Bilal Khan', 'Sir Hamza Alvi', 'Sir Bilal Attari', 'Sir Zia Khan', 'Sir Qasim', 'Sir Ali Aftab']
+
+print("\nUnfortunately, the new dinner table won’t arrive in time. I can invite only two people for dinner.\n")
+
+while len(guests) > 2:
+    removed_guests = guests.pop()
+    print(f"sorry {removed_guests}, I can't invite you to dinner.")
+
+print("\n final guests Invitations:")
+for guest in guests:
+    print(f"Dear {guests}, you,re still invited to dinner.")
+
+del guests[:]
+
+print("final guests list", guests )
+
