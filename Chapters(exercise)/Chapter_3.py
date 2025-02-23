@@ -55,6 +55,8 @@ unavailable_guests: str = "Sir Ameen Alam"
 
 changeing_guests_list:str = "Sir Hamza Alvi"
 
+print(f"\nUnfortunately, {unavailable_guests} can't attend the dinner.")
+
 guests[guests.index(unavailable_guests)] = changeing_guests_list
 
 for guest in guests:
