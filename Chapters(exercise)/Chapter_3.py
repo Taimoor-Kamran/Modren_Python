@@ -98,3 +98,56 @@ del guests[:]
 
 print("final guests list", guests )
 
+# 3-8. Seeing the World: Think of at least five places in the world you’d like
+# to visit.
+# • Store the locations in a list. Make sure the list is not in alphabetical order.
+# Print your list in its original order. Don’t worry about printing the list neatly;
+# just print it as a raw Python list.
+
+places_to_visit: list[str] = ["Japan", "Switzerland", "Maldives", "Turkey", "Canada"]
+
+print(f"Original List {places_to_visit}")
+
+# Use sorted() to print your list in alphabetical order without modifying the
+# actual list.
+
+print("Aplhabetical Order", sorted(places_to_visit))
+
+# • Show that your list is still in its original order by printing it.
+
+print("Original List After Sorted()", places_to_visit)
+
+# Use sorted() to print your list in reverse-alphabetical order without chang-
+# ing the order of the original list.
+
+# • Show that your list is still in its original order by printing it again.
+
+print("Reverse_Alphabetical sorted list", sorted(places_to_visit, reverse=True))
+
+# Use reverse() to change the order of your list. Print the list to show that its
+# order has changed.
+
+places_to_visit.reverse()
+
+print("list after reverse", places_to_visit)
+
+# • Use reverse() to change the order of your list again. Print the list to show
+# it’s back to its original order.
+
+places_to_visit.reverse()
+
+print("list after second reverse", places_to_visit)
+
+# • Use sort() to change your list so it’s stored in alphabetical order. Print the
+# list to show that its order has been changed.
+
+places_to_visit.sort()
+
+print("list after reverse", places_to_visit)
+
+# • Use sort() to change your list so it’s stored in reverse-alphabetical order.
+# Print the list to show that its order has changed.
+
+places_to_visit.sort(reverse=True)
+
+print("list after sort (reverse=True) in reverse alphabetical order:", places_to_visit)
