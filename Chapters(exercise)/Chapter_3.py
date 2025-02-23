@@ -168,12 +168,45 @@ print(f"total number of guests invited {len(guests)}")
 # else you’d like. Write a program that creates a list containing these items and
 # then uses each function introduced in this chapter at least once.
 
-cities = ["Karachi", "Istanbul", "New York", "Tokyo", "Dubai"]
+cities:list[str] = ["Karachi", "Istanbul", "New York", "Tokyo", "Dubai"]
 
 print("Original List", cities)
 
-print(cities[])
-print(cities[])
-print(cities[])
-print(cities[])
-print(cities[])
+print(cities[0])
+print(cities[1])
+print(cities[2])
+print(cities[3])
+print(cities[4])
+
+for citie in cities:
+    print("this is all i was visited 2020 to 2025", {citie})
+
+print("Alphabetically sorted list:", cities)
+
+print("original list after sorted:", sorted(cities))
+
+print("original list after sorted reverse:", sorted(cities, reverse=True))
+
+print("list after reverse", cities.reverse())
+
+print("list after sort", cities.sort())
+
+print("list after sort", cities.sort(reverse=True))
+
+print("add element list last index",cities.append("London"))
+
+print("remove element list last index",cities.remove("New York"))
+
+print("List after insert() at index 2:",cities.insert(3 ,"Paris"))
+
+
+print("List after pop():", cities.pop())
+
+print(f"total number of cities in the list: {len(cities)}")
+
+
+# 3-11. Intentional Error: If you haven’t received an index error in one of your pro-
+# grams yet, try to make one happen. Change an index in one of your programs
+
+# to produce an index error. Make sure you correct the error before closing the
+# program.
