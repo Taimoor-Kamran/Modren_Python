@@ -33,3 +33,30 @@ vehicles: list[str] = ["Kawaski Ninja H2r", "Mustang 1967", "Mazda Rx7", "Mark X
 
 for vehicle in vehicles:
     print(f"I would like to own a {vehicle}")
+
+
+# The following exercises are a bit more complex than those in Chapter 2, but
+# they give you an opportunity to use lists in all of the ways described.
+# 3-4. Guest List: If you could invite anyone, living or deceased, to dinner, who
+# would you invite? Make a list that includes at least three people you’d like to
+# invite to dinner. Then use your list to print a message to each person, inviting
+# them to dinner.
+
+guests: list[str] = ["Sir Ameen Alam", "Sir Zia Khan", "Sir Qasim"]
+
+for guest in guests:
+    print(f"Dear {guest}, I would be honored to have you join me for dinner")
+
+# 3-5. Changing Guest List: You just heard that one of your guests can’t make the
+# dinner, so you need to send out a new set of invitations. You’ll have to think of
+# someone else to invite.
+
+unavailable_guests: str = "Sir Ameen Alam"
+
+changeing_guests_list:str = "Sir Hamza Alvi"
+
+guests[guests.index(unavailable_guests)] = changeing_guests_list
+
+for guest in guests:
+    print(f"Dear {guests}, I would be honored to have you join me for dinner.")
+
