@@ -62,3 +62,24 @@ guests[guests.index(unavailable_guests)] = changeing_guests_list
 for guest in guests:
     print(f"Dear {guests}, I would be honored to have you join me for dinner.")
 
+# 3-6. More Guests: You just found a bigger dinner table, so now more space is
+# available. Think of three more guests to invite to dinner.
+# • Start with your program from Exercise 3-4 or 3-5. Add a print() call to the
+# end of your program, informing people that you found a bigger table.
+# • Use insert() to add one new guest to the beginning of your list.
+# • Use insert() to add one new guest to the middle of your list.
+# • Use append() to add one new guest to the end of your list.
+# • Print a new set of invitation messages, one for each person in your list.
+
+guests: list[str] = ['Sir Hamza Alvi', 'Sir Zia Khan', 'Sir Qasim']
+
+print("\nGreat news! we found a bigger dinner table, so we are inviting more guests.\n")
+
+guests.insert(0, "Sir Bilal Khan")
+guests.insert(len(guests) // 2, "Sir Bilal Attari")
+guests.append("Sir Ali Aftab")
+
+for guest in guests:
+    print(f"Dear {guest}, I would be honored to have you join me for inviting")
+
+    
