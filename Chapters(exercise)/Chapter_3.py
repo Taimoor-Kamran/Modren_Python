@@ -210,3 +210,10 @@ print(f"total number of cities in the list: {len(cities)}")
 
 # to produce an index error. Make sure you correct the error before closing the
 # program.
+
+languages: list[str] = ["JavaScript", "TypeScript", "C++", "Python", "Java"]
+
+for language in languages:
+    print(language)
+
+print(languages[10]) # This is error 
