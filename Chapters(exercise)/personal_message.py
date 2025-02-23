@@ -81,3 +81,16 @@ favorite_number: int = 5
 message: str = f"this is my favorite number {favorite_number}"
 
 print(message)
+
+# 2-11. Adding Comments: Choose two of the programs you’ve written, and
+# add at least one comment to each. If you don’t have anything specific to write
+# because your programs are too simple at this point, just add your name and the
+# current date at the top of each program file. Then write one sentence describing
+# what the program does.
+
+# Author: str = "Taimoor Kamran"
+# Date = 22-Feb-2025
+
+# print(Author)
+# print(Date)
+
