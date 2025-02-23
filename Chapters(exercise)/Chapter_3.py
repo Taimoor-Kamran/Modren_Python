@@ -151,3 +151,29 @@ print("list after reverse", places_to_visit)
 places_to_visit.sort(reverse=True)
 
 print("list after sort (reverse=True) in reverse alphabetical order:", places_to_visit)
+
+# 3-9. Dinner Guests: Working with one of the programs from Exercises 3-4
+# through 3-7 (pages 41–42), use len() to print a message indicating the number
+# of people you’re inviting to dinner.
+
+guests: list[str] = ['Sir Bilal Khan', 'Sir Hamza Alvi', 'Sir Bilal Attari', 'Sir Zia Khan', 'Sir Qasim', 'Sir Ali Aftab']
+
+for guest in guests:
+    print(f"Dear {guest}, I would be honored to have you join me for dinner.")
+
+print(f"total number of guests invited {len(guests)}")
+
+# 3-10. Every Function: Think of things you could store in a list. For example, you
+# could make a list of mountains, rivers, countries, cities, languages, or anything
+# else you’d like. Write a program that creates a list containing these items and
+# then uses each function introduced in this chapter at least once.
+
+cities = ["Karachi", "Istanbul", "New York", "Tokyo", "Dubai"]
+
+print("Original List", cities)
+
+print(cities[])
+print(cities[])
+print(cities[])
+print(cities[])
+print(cities[])
