@@ -1,6 +1,6 @@
 from typing import Union
 
-per : Union[int, float] = 88
+per : Union[int, float] = int(input("Enter Your Percentage: "))
 grade: Union[str, None] = None
 
 if per >= 80:
@@ -17,3 +17,6 @@ elif per >= 33:
     grade = "E"        
 else:
     grade = "Fail"
+
+print(f"Dear Students your percentage is {per} now your calcualted grade is:\t {grade}")
+print(grade)
