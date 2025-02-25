@@ -46,6 +46,8 @@ for per in percentage:
     elif (per >= 80) and (per <= 100):
         grade = "A+"
 
-grades.append(grade)
+    grades.append(grade)
+
+
 print(percentage)
-print(grade)
+print(grades)
