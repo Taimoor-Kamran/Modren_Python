@@ -20,3 +20,8 @@ elif (per >= 80) and (per <= 100):
     
 print(f"Dear Students your percentage is {per} now your calcualted grade is:\t {grade}")
 print(grade)
+
+
+PerType = Union[float, int]
+
+percentage: list[PerType]
