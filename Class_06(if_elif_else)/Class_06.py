@@ -51,3 +51,5 @@ for per in percentage:
 
 print(percentage)
 print(grades)
+
+print(list(zip(percentage, grades, list(range(len(percentage))))))
