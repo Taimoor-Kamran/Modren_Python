@@ -24,3 +24,18 @@ for pizza in pizzas:
     print(f"I Like {pizza} pizza." )
 
 print("\nI really love pizza!")
+
+
+# 4-2. Animals: Think of at least three different animals that have a common char-
+# acteristic. Store the names of these animals in a list, and then use a for loop to
+
+# print out the name of each animal.
+
+animals:list[str] = ["Rabbit", "Cat", "Dog"]
+
+print("Animals Names")
+for animal in animals:
+    print(animal)
+
+for animal in animals:
+    print(f"A {animal} would like make a great pet.")
