@@ -33,9 +33,34 @@ print("\nI really love pizza!")
 
 animals:list[str] = ["Rabbit", "Cat", "Dog"]
 
-print("Animals Names")
+print("\nAnimals Names\n")
 for animal in animals:
     print(animal)
 
+# Modify your program to print a statement about each animal, such as A
+# dog would make a great pet.
+
+# Add a line at the end of your program, stating what these animals have in
+# common. You could print a sentence, such as Any of these animals would
+# make a great pet!
+
 for animal in animals:
-    print(f"A {animal} would like make a great pet.")
+    print(f"A {animal.lower()} would like make a great pet.")
+
+print("\nAny of these animals would make a great pet!")
+
+# 4-3. Counting to Twenty: Use a for loop to print the numbers from 1 to 20,
+# inclusive.
+
+for count in range(1, 21):
+    print(count)
+
+# 4-4. One Million: Make a list of the numbers from one to one million, and then
+# use a for loop to print the numbers. (If the output is taking too long, stop it by
+# pressing CTRL-C or by closing the output window.)
+
+numbers = list(range(1, 1_000_001))
+
+for number in numbers:
+    print(number)
+
