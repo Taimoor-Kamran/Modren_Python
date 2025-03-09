@@ -61,6 +61,13 @@ for count in range(1, 21):
 
 numbers = list(range(1, 1_000_001))
 
+# The underscore (_) is just a readability feature in Python
+
 for number in numbers:
-    print(number)
+    print(number) 
+
+# 4-5. Summing a Million: Make a list of the numbers from one to one million, and
+# then use min() and max() to make sure your list actually starts at one and ends
+# at one million. Also, use the sum() function to see how quickly Python can add
+# a million numbers.
 
