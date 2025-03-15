@@ -73,4 +73,5 @@ for number in numbers:
 
 numbers = list(range(1, 1000001))
 
-print()
+print("Minimum:", min(numbers))
+print("Maximum:", max(numbers))
