@@ -71,3 +71,6 @@ for number in numbers:
 # at one million. Also, use the sum() function to see how quickly Python can add
 # a million numbers.
 
+numbers = list(range(1, 1000001))
+
+print()
