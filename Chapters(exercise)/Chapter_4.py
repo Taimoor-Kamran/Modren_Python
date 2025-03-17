@@ -63,8 +63,8 @@ numbers = list(range(1, 1_000_001))
 
 # The underscore (_) is just a readability feature in Python
 
-for number in numbers:
-    print(number) 
+# for number in numbers:
+#     print(number) 
 
 # 4-5. Summing a Million: Make a list of the numbers from one to one million, and
 # then use min() and max() to make sure your list actually starts at one and ends
@@ -76,3 +76,26 @@ numbers = list(range(1, 1000001))
 print("Minimum:", min(numbers))
 print("Maximum:", max(numbers))
 print("Sum:", sum(numbers))
+
+# 4-6. Odd Numbers: Use the third argument of the range() function to make a list
+# of the odd numbers from 1 to 20. Use a for loop to print each number.
+
+odd_numbers = list(range(1, 21, 2))
+
+for odd_number in odd_numbers:
+    print(odd_number)
+
+# Even Numbers
+
+even_numbers = list(range(0, 21, 2))
+
+for even_number in even_numbers:
+    print(even_number)
+
+# 4-7. Threes: Make a list of the multiples of 3, from 3 to 30. Use a for loop to
+# print the numbers in your list.
+
+threes = list(range(3, 31, 3))
+
+for three in threes:
+    print(three)
