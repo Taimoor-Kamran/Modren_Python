@@ -99,3 +99,24 @@ threes = list(range(3, 31, 3))
 
 for three in threes:
     print(three)
+
+# 4-8. Cubes: A number raised to the third power is called a cube. For example,
+# the cube of 2 is written as 2**3 in Python. Make a list of the first 10 cubes (that
+# is, the cube of each integer from 1 through 10), and use a for loop to print out
+# the value of each cube.
+
+cubes:list[int] = [num**3 for num in range(1, 11)]
+
+for cube in cubes:
+    print(cube)
+
+# second method
+
+cubes1:list[int] = []
+
+for num in cubes1:
+    cube1 = num ** 3
+    cubes1.append(cube1)
+
+for cube1 in cubes1:
+    print(cube1)
