@@ -112,11 +112,11 @@ for cube in cubes:
 
 # second method
 
-cubes1:list[int] = []
+cubes = []  
 
-for num in cubes1:
-    cube1 = num ** 3
-    cubes1.append(cube1)
+for num in range(1, 11):
+    cube = num ** 3  
+    cubes.append(cube) 
 
-for cube1 in cubes1:
-    print(cube1)
+for cube in cubes:  
+    print(cube)  
