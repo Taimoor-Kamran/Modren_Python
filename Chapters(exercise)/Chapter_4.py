@@ -209,6 +209,14 @@ print("\nOrignal Buffet menu:\n")
 for food in buffet_style:
     print(food)
 
-# • Try to modify one of the items, and make sure that Python rejects the
-# change.
+# Try to modify one of the items,
 
+# buffet_style[2] = "watermelon"
+# print(buffet_style)
+
+buffet_style:tuple[str] = ("banana", "orange", "kiwi", "graphes", "peach")
+
+print("\nUpdated buffet menu:")
+
+for foods in buffet_style:
+    print(foods)
