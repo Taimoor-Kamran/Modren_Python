@@ -204,6 +204,11 @@ for friend_food in friend_foods:
 
 buffet_style:tuple = ("banana", "orange", "kiwi", "watermelon", "apple")
 
-for buffet in buffet_style:
-    print(buffet_style)
-    
+print("\nOrignal Buffet menu:\n")
+
+for food in buffet_style:
+    print(food)
+
+# • Try to modify one of the items, and make sure that Python rejects the
+# change.
+
