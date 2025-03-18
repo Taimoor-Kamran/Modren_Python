@@ -182,7 +182,12 @@ friend_foods = my_foods[:]
 my_foods.append("orange")
 friend_foods.append("watermelon")
 
-print("my favorite fruits are:")
+print("\nmy favorite fruits are:")
 
 for food in my_foods:
     print(food)
+
+print("\nfirend' favorite fruits are:")
+
+for friend_food in friend_foods:
+    print(friend_food)
