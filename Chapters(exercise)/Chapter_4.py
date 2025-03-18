@@ -154,8 +154,19 @@ print("The last three items in the list are:", cubes[-3:])
 # friend’s favorite pizzas are:, and then use a for loop to print the second list.
 # Make sure each new pizza is stored in the appropriate list.
 
-friend_pizzas:list[str] = ["pepperoni", "Greek Pizza", "Cheese pizza"]
+my_pizzas:list[str] = ["pepperoni", "Greek Pizza", "Cheese pizza"]
 
-friend_pizzas.append("Fajita")
+friend_pizza = my_pizzas[:]
 
-print(friend_pizzas)
+my_pizzas.append("Fajita")
+friend_pizza.append("BBQ Chicken")
+
+print("My favorite pizzas are:")
+
+for pizza in my_pizzas:
+    print(pizza)
+
+print("\nfriend’s favorite pizzas are:")
+
+for friend in friend_pizza:
+    print(friend)
