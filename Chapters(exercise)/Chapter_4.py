@@ -200,3 +200,10 @@ for friend_food in friend_foods:
 # • The restaurant changes its menu, replacing two of the items with different
 # foods. Add a line that rewrites the tuple, and then use a for loop to print
 # each of the items on the revised menu.
+
+
+buffet_style:tuple = ("banana", "orange", "kiwi", "watermelon", "apple")
+
+for buffet in buffet_style:
+    print(buffet_style)
+    
