@@ -110,3 +110,8 @@ print("Is orange in furits ? I predict False")
 print('orange' in furits)
 
 # • Test whether an item is not in a list
+
+print("\nIs watermelon in furits ? I predict True")
+print('watermelon' not in furits)
+print("Is apple in furits ? I predict False")
+print('apple' not in furits)
