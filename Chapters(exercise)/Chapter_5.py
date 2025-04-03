@@ -87,3 +87,15 @@ print(value <= 8)
 
 # • Tests using the and keyword and the or keyword
 
+age = 18
+country = "pakistan"
+
+print("\nIs age > 16 and country == pakistan")
+print(age > 16 and country == "pakistan")
+print("Is age > 16 and country == lahore")
+print(age > 16 and country == "lahore")
+
+print("\nIs age > 16 and country == pakistan")
+print(age > 16 or country == "pakistan")
+print("Is age > 16 and country == lahore")
+print(age < 16 or country == "lahore")
