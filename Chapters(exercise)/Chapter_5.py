@@ -99,3 +99,14 @@ print("\nIs age > 16 and country == pakistan")
 print(age > 16 or country == "pakistan")
 print("Is age > 16 and country == lahore")
 print(age < 16 or country == "lahore")
+
+# • Test whether an item is in a list
+
+furits = ["banana", "mango", "apple"]
+
+print("\nIs mango in furits ? I predict True")
+print('mango' in furits)
+print("Is orange in furits ? I predict False")
+print('orange' in furits)
+
+# • Test whether an item is not in a list
