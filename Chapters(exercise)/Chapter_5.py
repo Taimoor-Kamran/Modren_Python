@@ -139,3 +139,17 @@ else:
 # • Write one version of this program that runs the if block and another that
 # runs the else block.
 
+alien_color = "green"
+
+if(alien_color == "green"):
+    print("the player just earned 5 points for shooting the alien.")
+else:
+    print("the player just earned 10 points.")
+
+alien_color = "red"
+
+if(alien_color == "green"):
+    print("the player just earned 5 points for shooting the alien.")
+else:
+    print("the player just earned 10 points.")
+
