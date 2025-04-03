@@ -122,3 +122,10 @@ print('apple' not in furits)
 # a message that the player just earned 5 points.
 # • Write one version of this program that passes the if test and another that
 # fails. (The version that fails will have no output.)
+
+alien_color = "green"
+
+if(alien_color == "green"):
+    print("that the player just earned 5 points.")
+else:
+    print("The version that fails will have no output.")
