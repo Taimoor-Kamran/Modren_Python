@@ -185,3 +185,17 @@ else:
 # the person is an adult.
 # • If the person is age 65 or older, print a message that the person is an elder.
 
+person_age = 18
+
+if age < 2:
+    print("the person is baby.")
+elif age >= 2 and age <= 4:
+    print("the person age is tolder.")
+elif age >= 4 and age <= 13:
+    print("the person is a kid.")
+elif age >= 13 and age <= 20:
+    print("the person is a teenager.")
+elif age >= 20 and age <= 65:
+    print("the person is an adult.")
+else:
+    print("the person is an elder.")
