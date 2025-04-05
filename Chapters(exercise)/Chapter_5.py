@@ -288,3 +288,14 @@ else:
 # for each number. Your output should read "1st 2nd 3rd 4th 5th 6th 7th
 # 8th 9th", and each result should be on a separate line.
 
+numbers = list(range(1, 10))
+
+for number in numbers:
+    if number == 1:
+        print("1st")
+    elif number == 2:
+        print("2nd")
+    elif number == 3:
+        print("3nd")
+    else:
+        print(f"{number}st")
