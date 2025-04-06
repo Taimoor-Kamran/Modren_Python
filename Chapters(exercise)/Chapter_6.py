@@ -138,3 +138,30 @@ for person in people:
 # Store these dictionaries in a list called pets. Next, loop through your list and as
 # you do, print everything you know about each pet.
 
+pet_1: dict[str] = {
+    "animal": "cat",
+    "owner": "Ali"
+}
+
+pet_2: dict[str] = {
+    "animal": "dog",
+    "owner": "Hashir"
+}
+
+pet_3: dict[str] = {
+    "animal": "lion",
+    "owner": "Ahmed"
+}
+
+pet_4: dict[str] = {
+    "animal": "leopard",
+    "owner": "Shani"
+}
+
+pets:list[str] = [pet_1, pet_2, pet_3, pet_4]
+
+for pet in pets:
+    print(f"Animal: {pet["animal"].title()}")
+    print(f"Owner: {pet["owner"].title()}")
+    print("\n")
+
