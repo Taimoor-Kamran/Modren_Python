@@ -35,7 +35,7 @@ glossary: dict[str] = {"Variables": "A container to storing a data and value",
                        "functions": "A block of code that runs only when it's called.",
                        "loop": "used to repeat a block of code multiple time.",
                        "dictionary": "A collection of key value pairs in python.",
-                       "if_statment": "Used to make decisions in code based on conditions."}
+                       "if_statment": "Used to make decision in code based on conditions."}
 
 for word, meaning in glossary.items():
     print(f"{word.title()}:\n {meaning}")
@@ -46,3 +46,21 @@ for word, meaning in glossary.items():
 # you’re sure that your loop works, add five more Python terms to your glossary.
 # When you run your program again, these new words and meanings should
 # automatically be included in the output.
+
+glossary_second: dict[str] = {
+    "Variable": "A container to store data and value.",
+    "function": "A block of code that runs when it's call.",
+    "loop": "used to repeat block of code multiple time.",
+    "dictionary": "A collection of key value pairs in python",
+    "if_statment": "used to make decision in code based on conditions.",
+    "list": "A collection of items in a specific order.",
+    "tuple": "An immutable list of items",
+    "set": "An unordered collection of unique items",
+    "class": "A blueprint for creating objects (a user-defined data structure).",
+    "import": "Used to bring in external modules or libraries."
+}
+
+for word, meaning in glossary_second.items():
+    print(f"{word.title()}:\n {meaning}")
+
+    
