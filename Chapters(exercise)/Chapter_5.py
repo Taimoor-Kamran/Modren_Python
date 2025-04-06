@@ -303,13 +303,23 @@ for number in numbers:
 # 5-12. Styling if Statements: Review the programs you wrote in this chapter, and
 # make sure you styled your conditional tests appropriately.
 
-x = 5
+x: int = 5
 
 if x == 5:
     print("True") # (4 spaces is standard)
 
 if (x == 5): # Aviod unnecessary parentheses
     print("True")
+
+userName: str = "admin"
+
+if userName.lower() == "admin": # Use lowercase for comparisons (if needed)
+    print("Welcome Admin")
+
+height: int = 6
+
+if height >= 6: # write clear and meaningfull condition
+    print("You are 6 feet tall")
 
 
 # 5-13. Your Ideas: At this point, you’re a more capable programmer than you
