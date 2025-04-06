@@ -165,3 +165,33 @@ for pet in pets:
     print(f"Owner: {pet["owner"].title()}")
     print("\n")
 
+# 6-9. Favorite Places: Make a dictionary called favorite_places. Think of three
+# names to use as keys in the dictionary, and store one to three favorite places for
+# each person. To make this exercise a bit more interesting, ask some friends to
+# name a few of their favorite places. Loop through the dictionary, and print each
+# person’s name and their favorite places.
+
+favorite_places: dict[str] = {
+    "Ali" : ["Great wall of china", "Paris", "The great pyramid of giza"],
+    "Ahmed": ["Angkor Wat", "Bangkok", "Eiffel Tower"],
+    "Hashir": ["Dubai", "Taj Mahal", "Statue of liberty"]
+}
+
+for names, places in favorite_places.items():
+    print(f"{names}'s favorite places are:")
+    for place in places:
+        print(f"- {place}")
+    print()
+
+# 6-10. Favorite Numbers: Modify your program from Exercise 6-2 (page 98) so
+# each person can have more than one favorite number. Then print each person’s
+# name along with their favorite numbers.
+
+favorite_numbers: dict[str, int] = {"Ali" : [7, 4, 5], "Ahmed" : [5,2,1], "Bilalwal": [4, 8, 8], "haroon": [3, 2 ,2], "Musa": [8, 2, 2]}
+
+for name, f_numbers  in favorite_numbers.items():
+    print(f"{name}, favorite numbers are:")
+    for f_number in f_numbers:
+        print(f"- {f_number}")
+
+    print()
