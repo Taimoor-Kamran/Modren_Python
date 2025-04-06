@@ -380,5 +380,3 @@ for person in people:
         stage = "a elder"
 
     print(f"{name} is {age} Year old and is {stage}")
-
-    
