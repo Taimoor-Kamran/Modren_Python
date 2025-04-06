@@ -340,3 +340,43 @@ else:
 
 # want to explore, and web applications you’d like to create.
 
+old_friend:list[str] = ["johnathan", "Mark", "david", "Louise", "Carl", "johnson", "brain", "han"]
+
+new_friend:list[str] = ["john", "johnson", "brain", "han", "hangsung"]
+
+old_friend_lower = [friend.lower() for friend in old_friend]
+new_friend_lower = [friend.lower() for friend in new_friend]
+
+for friend in new_friend_lower:
+    if friend in old_friend_lower:
+        print(f"Hy {friend}, You are my childhood friend.")
+    else:
+        print(f"Hy {friend}, You are my new friend.")
+
+people: list[dict[str, str | int]] = [
+    {"name": "Ali", "age" : 5},
+    {"name": "Ahmed", "age": 4},
+    {"name": "Bilal", "age": 10},
+    {"name": "Kashan", "age": 16},
+    {"name": "Owais", "age": 30},
+    {"name": "Umair", "age": 70},
+]
+
+for person in people:
+    name = person["name"]
+    age = person["age"]
+
+    if age < 2:
+        stage = "a baby"
+    elif age < 4:
+        stage = "a toddler"
+    elif age < 10:
+        stage = "a kid"
+    elif age < 15:
+        stage = "a teenager"
+    elif age < 30:
+        stage = "a adult"
+    elif age < 65:
+        stage = "a elder"
+
+    print(f"{name} is {age} Year old and is {stage}")
