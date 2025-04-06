@@ -321,6 +321,14 @@ height: int = 6
 if height >= 6: # write clear and meaningfull condition
     print("You are 6 feet tall")
 
+age = 3
+
+if age < 2:
+    print("Your are baby.")
+elif age < 4:
+    print("You are toddler")
+else:
+    print("grown up")
 
 # 5-13. Your Ideas: At this point, you’re a more capable programmer than you
 # were when you started this book. Now that you have a better sense of how
@@ -331,3 +339,4 @@ if height >= 6: # write clear and meaningfull condition
 # tinue to improve. Consider games you might want to write, datasets you might
 
 # want to explore, and web applications you’d like to create.
+
