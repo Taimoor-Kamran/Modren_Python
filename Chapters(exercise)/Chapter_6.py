@@ -120,3 +120,14 @@ for person in people_to_poll:
 
 # the list, print everything you know about each person.
 
+person_1: dict[str, str, str | int, str] = {"first_name": "Zohan", "last_name": "Zain", "age": 10, "city": "Karachi"}
+person_2: dict[str, str, str | int, str] = {"first_name": "Mustafa", "last_name": "jalal", "age": 20, "city": "Karachi"}
+person_3: dict[str, str, str | int, str] = {"first_name": "Mansukh", "last_name": "sham", "age": 19, "city": "India-delhi"}
+
+people:list[str] = [person_1, person_2, person_3]
+
+for person in people:
+    print(f"\nFirst Name: {person['first_name']}")
+    print(f"Last Name: {person['last_name']}")
+    print(f"Age: {person['age']}")
+    print(f"City: {person['city']}")
