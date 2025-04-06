@@ -69,3 +69,22 @@ for word, meaning in glossary_second.items():
 # through Egypt.
 # • Use a loop to print the name of each river included in the dictionary.
 # • Use a loop to print the name of each country included in the dictionary.
+
+rivers:dict[str] = {
+    "Tocantins" : "Brazil",
+    "Brahmaputra" : "India",
+    "Lena" : "Russia",
+}
+
+for river, country in rivers.items():
+    print(f"The {river} run through {country}")
+
+print("\nNames of Rivers:")
+
+for river in rivers:
+    print(river)
+
+print("\nNames of Country")
+
+for country in rivers:
+    print(country)
