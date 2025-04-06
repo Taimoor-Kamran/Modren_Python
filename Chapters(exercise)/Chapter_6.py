@@ -31,3 +31,11 @@ for name, f_number  in favorite_numbers.items():
 # newline character (\n) to insert a blank line between each word-meaning
 # pair in your output.
 
+glossary: dict[str] = {"Variables": "A container to storing a data and value",
+                       "functions": "A block of code that runs only when it's called.",
+                       "loop": "used to repeat a block of code multiple time.",
+                       "dictionary": "A collection of key value pairs in python.",
+                       "if_statment": "Used to make decisions in code based on conditions."}
+
+for word, meaning in glossary.items():
+    print(f"{word.title()}:\n {meaning}")
