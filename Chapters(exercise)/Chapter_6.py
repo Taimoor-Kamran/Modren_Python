@@ -97,3 +97,19 @@ for country in rivers:
 # If they have not yet taken the poll, print a message inviting them to take
 # the poll.
 
+
+favorite_language: dict[str] = {
+    "Taha": "TypeScript",
+    "Hassnain": "Ruby",
+    "Hassan": "Python",
+    "Ghasiq": "C++"
+}
+
+people_to_poll: list[str] = ["Ghasiq" ,"Taha", "Suban", "Zohan", "Hassnain", "Hassan", "Mujtaba"]
+
+for person in people_to_poll:
+    if person in favorite_language:
+        print(f"thankyou for responding. {person.title()}")
+    else:
+        print(f"{person}, please take the poll.")
+
