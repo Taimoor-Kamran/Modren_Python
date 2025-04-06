@@ -125,7 +125,7 @@ print('apple' not in furits)
 
 alien_color = "green"
 
-if(alien_color == "green"):
+if alien_color == "green":
     print("that the player just earned 5 points.")
 else:
     print("The version that fails will have no output.")
@@ -141,14 +141,14 @@ else:
 
 alien_color = "green"
 
-if(alien_color == "green"):
+if alien_color == "green":
     print("the player just earned 5 points for shooting the alien.")
 else:
     print("the player just earned 10 points.")
 
 alien_color = "red"
 
-if(alien_color == "green"):
+if alien_color == "green":
     print("the player just earned 5 points for shooting the alien.")
 else:
     print("the player just earned 10 points.")
@@ -164,9 +164,9 @@ else:
 
 alien_color = "green"
 
-if (alien_color == "red"):
+if alien_color == "red":
     print("the player earned 5 points.")
-elif (alien_color == "green"):
+elif alien_color == "green":
     print("the player earned 10 points.")
 else:
     print("the player earned 15 points.")
@@ -299,3 +299,7 @@ for number in numbers:
         print("3nd")
     else:
         print(f"{number}st")
+
+# 5-12. Styling if Statements: Review the programs you wrote in this chapter, and
+# make sure you styled your conditional tests appropriately.
+
