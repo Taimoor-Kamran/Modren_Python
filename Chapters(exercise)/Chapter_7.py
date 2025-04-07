@@ -47,7 +47,6 @@ while True:
 # $15. Write a loop in which you ask users their age, and then tell them the cost
 # of their movie ticket.
 
-
 while True:
     age_input = input("Let me know your age (or type 'quit' to exit): ")
 
@@ -63,3 +62,10 @@ while True:
         print("The ticket is $10.")
     else:
         print("The ticket is $15.")
+
+# 7-6. Three Exits: Write different versions of either Exercise 7-4 or 7-5 that do
+# each of the following at least once:
+# • Use a conditional test in the while statement to stop the loop.
+# • Use an active variable to control how long the loop runs.
+# • Use a break statement to exit the loop when the user enters a 'quit' value.
+
