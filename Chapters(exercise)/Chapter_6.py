@@ -229,4 +229,45 @@ for city, info in cities.items():
     print(f"Fact {info['Fact']}")
     print(f"Approximate Population {info['Approximate Population']}")
 
-    
+# 6-12. Extensions: We’re now working with examples that are complex enough
+
+# that they can be extended in any number of ways. Use one of the example pro-
+# grams from this chapter, and extend it by adding new keys and values, chang-
+# ing the context of the program, or improving the formatting of the output.
+
+
+cities = {
+    "Tokyo": {
+        "Country": "Japan",
+        "Fact": " Tokyo is the most populous metropolitan area in the world",
+        "Approximate Population": "37 million (metro area)",
+        "Currency": " Japanese Yen (¥)",
+        "Famous Car Brand": "Toyota",
+        "Famous Car" : " Toyota Supra",
+    },
+    "Paris": {
+        "Country" : "France",
+        "Fact": """Paris is known as the "City of Light" and is home to the Eiffel Tower.""",
+        "Approximate Population": "11 million (metro area)",
+        "Currency": "Euro (€)",
+        "Famous Car Brand": "Renault",
+        "Famous Car" : "Renault Clio",
+    },
+    "Toronto": {
+        "Country": "Canada",
+        "Fact": "Toronto is the most multicultural city in the world, with over 180 languages spoken.",
+        "Approximate Population": "6.7 million (metro area)",
+        "Currency": "Canadian Dollar (CAD)",
+        "Famous Car Brand": "Ford ",
+        "Famous Car" : "Ford F-150",
+    }
+}
+   
+for city, info in cities.items():
+    print(f"\nInformation about {city}")
+    print(f"Country {info['Country']}")
+    print(f"Fact {info['Fact']}")
+    print(f"Approximate Population {info['Approximate Population']}")
+    print(f"Currency {info['Currency']}")
+    print(f"Famous Car Brand {info['Famous Car Brand']}")
+    print(f"Famous Car  {info['Famous Car ']}")
