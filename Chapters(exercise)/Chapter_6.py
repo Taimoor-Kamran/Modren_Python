@@ -243,7 +243,7 @@ cities = {
         "Approximate Population": "37 million (metro area)",
         "Currency": " Japanese Yen (¥)",
         "Famous Car Brand": "Toyota",
-        "Famous Car" : " Toyota Supra",
+        "Famous Car" : "Toyota Supra",
     },
     "Paris": {
         "Country" : "France",
@@ -258,8 +258,8 @@ cities = {
         "Fact": "Toronto is the most multicultural city in the world, with over 180 languages spoken.",
         "Approximate Population": "6.7 million (metro area)",
         "Currency": "Canadian Dollar (CAD)",
-        "Famous Car Brand": "Ford ",
-        "Famous Car" : "Ford F-150",
+        "Famous Car Brand": "Ford",
+        "Famous Car" :"Ford F-150",
     }
 }
    
@@ -270,4 +270,4 @@ for city, info in cities.items():
     print(f"Approximate Population {info['Approximate Population']}")
     print(f"Currency {info['Currency']}")
     print(f"Famous Car Brand {info['Famous Car Brand']}")
-    print(f"Famous Car  {info['Famous Car ']}")
+    print(f"Famous Car  {info['Famous Car']}")
