@@ -122,3 +122,20 @@ while True:
         print("The ticket is $10.")
     else:
         print("The ticket is $15.")
+
+# 7-7. Infinity: Write a loop that never ends, and run it. (To end the loop, press
+# CTRL-C or close the window displaying the output.)
+
+while True:
+    print("Press CTRL + C")
+
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
+# Press CTRL + C
