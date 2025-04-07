@@ -195,3 +195,38 @@ for name, f_numbers  in favorite_numbers.items():
         print(f"- {f_number}")
 
     print()
+
+# 6-11. Cities: Make a dictionary called cities. Use the names of three cities as
+# keys in your dictionary. Create a dictionary of information about each city and
+# include the country that the city is in, its approximate population, and one fact
+# about that city. The keys for each city’s dictionary should be something like
+
+# country, population, and fact. Print the name of each city and all of the infor-
+# mation you have stored about it.
+
+cities = {
+    "Tokyo": {
+        "Country": "Japan",
+        "Fact": " Tokyo is the most populous metropolitan area in the world",
+        "Approximate Population": "37 million (metro area)"
+    },
+    "Paris": {
+        "Country" : "France",
+        "Fact": """Paris is known as the "City of Light" and is home to the Eiffel Tower.""",
+        "Approximate Population": "11 million (metro area)"
+    },
+    "Toronto": {
+        "Country": "Canada",
+        "Fact": "Toronto is the most multicultural city in the world, with over 180 languages spoken.",
+        "Approximate Population": "6.7 million (metro area)"
+    }
+}
+   
+
+for city, info in cities.items():
+    print(f"\nInformation about {city}")
+    print(f"Country {info['Country']}")
+    print(f"Fact {info['Fact']}")
+    print(f"Approximate Population {info['Approximate Population']}")
+
+    
