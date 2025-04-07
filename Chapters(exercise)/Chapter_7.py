@@ -106,3 +106,19 @@ while active:
         else:
             print("The ticket is 15$.")
 
+# Use a break statement to exit the loop when the user enters a 'quit' value.
+
+while True:
+    age_input = input("Enter your age (or type 'quit' to exit): ")
+
+    if age_input.lower() == 'quit':
+        break
+
+    age = int(age_input)
+
+    if age < 3:
+        print("The ticket is free.")
+    elif age <= 12:
+        print("The ticket is $10.")
+    else:
+        print("The ticket is $15.")
