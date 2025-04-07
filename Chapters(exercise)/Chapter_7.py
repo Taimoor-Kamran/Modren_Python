@@ -32,3 +32,11 @@ else:
 # pizza toppings until they enter a 'quit' value. As they enter each topping, print
 # a message saying you’ll add that topping to their pizza.
 
+while True:
+    topping : str = input("Enter a pizza topping(or type 'quit' to stop.)")
+    
+    if topping == 'quit':
+        print(f"{topping} Thankyou! We're preparing you pizza.")
+        break
+    else:
+        print(f"I'll add {topping} to your pizza.")
