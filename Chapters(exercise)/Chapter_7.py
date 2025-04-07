@@ -11,3 +11,11 @@ print(f"“Let me see if I can find you a {rental_car}")
 # are in their dinner group. If the answer is more than eight, print a message say-
 # ing they’ll have to wait for a table. Otherwise, report that their table is ready.
 
+dinner = int(input("How many people are in their dinner group?"))
+
+if dinner <= 8:
+    print("they'll have to wait for a table.")
+else:
+    print("their table is ready.")
+
+    
