@@ -65,7 +65,44 @@ while True:
 
 # 7-6. Three Exits: Write different versions of either Exercise 7-4 or 7-5 that do
 # each of the following at least once:
-# • Use a conditional test in the while statement to stop the loop.
-# • Use an active variable to control how long the loop runs.
-# • Use a break statement to exit the loop when the user enters a 'quit' value.
+
+# Use a conditional test in the while statement to stop the loop.
+
+age_input = ""
+
+while age_input.lower() != "quit":
+    age_input = input("Enter your age (or type 'quit' to exit):")
+
+
+    if age_input == 'quit':
+        print("Goodbye")
+        continue
+
+    age = int(age_input)
+
+    if age < 3:
+        print("ticket is free")
+    elif age >= 3 and age <= 12:
+        print("ticket is $10")
+    else:
+        print("ticket is $15")
+
+# Use an active variable to control how long the loop runs.
+
+active = True
+
+while active:
+    age_input = input("Enter your age (or type 'quit' to exit):")
+
+    if age_input.lower() == 'quit':
+        active = False
+    else:
+        age = int(age_input)
+
+        if age < 3:
+            print("The ticket is free.")
+        elif age >= 3 and age <= 12:
+            print("The ticket is 10$.")
+        else:
+            print("The ticket is 15$.")
 
