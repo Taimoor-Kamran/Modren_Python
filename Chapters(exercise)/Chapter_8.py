@@ -65,3 +65,10 @@ describe_city("Berlin", "Germany")
 # Call your function with at least three city-country pairs, and print the values
 # that are returned.
 
+def city_country(city, country):
+    return f"{city}, {country}"
+
+
+city_country("Karachi" ,"Pakistan")
+city_country("Tokyo" ,"Japan")
+city_country("California" ,"USA")
