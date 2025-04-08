@@ -126,20 +126,8 @@ while True:
 # 7-7. Infinity: Write a loop that never ends, and run it. (To end the loop, press
 # CTRL-C or close the window displaying the output.)
 
-while True:
-    print("Press CTRL + C")
-
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-# Press CTRL + C
-
+# while True:
+    # print("Press CTRL + C")
 
 # 7-8. Deli: Make a list called sandwich_orders and fill it with the names of various
 # sandwiches. Then make an empty list called finished_sandwiches. Loop through
@@ -148,3 +136,13 @@ while True:
 # sandwiches. After all the sandwiches have been made, print a message listing
 # each sandwich that was made.
 
+sandwich_orders = ["Club sandwich", "Reuben sandwich", "Chicken sandwich"]
+finished_sandwiches = []
+
+for sandwich_order in sandwich_orders:
+    print(f"I made your {sandwich_order}.")
+    finished_sandwiches.append(sandwich_order)
+
+print("\nAll sandwiches made:")
+for sandwich in finished_sandwiches:
+    print(f"- {sandwich}")
