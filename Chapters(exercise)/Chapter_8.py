@@ -37,3 +37,11 @@ make_shirt(size="Meduim", message="Code like a pool.")
 # medium shirt with the default message, and a shirt of any size with a different
 # message.
 
+def make_shirt(size="Large", message="I love python"):
+    print(f"The Shirt size is '{size}'and the message on it says: '{message}'")
+
+make_shirt()
+
+make_shirt(size="Medium")
+
+make_shirt(size="Small", message="Never give up.")
