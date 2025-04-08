@@ -107,4 +107,5 @@ print(album3)
 # information, call make_album() with the user’s input and print the dictionary
 # that’s created. Be sure to include a quit value in the while loop.
 
+make_album = {}
 
