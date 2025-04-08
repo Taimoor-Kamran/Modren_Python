@@ -161,7 +161,7 @@ finished_sandwiches = []
 print("Sorry, the deli has run out of pastrami.")
 
 while 'pastrami' in sandwich_orders:
-    sandwich_order.remove('pastrami')
+    sandwich_orders.remove('pastrami')
 
 for sandwich in sandwich_orders:
     print(f"I made your {sandwich}")
@@ -176,3 +176,22 @@ for sandwich in finished_sandwiches:
 
 # would you go? Include a block of code that prints the results of the poll.
 
+response:dict = {}
+
+polling_active: bool = True
+
+while polling_active:
+    name = input("What's' your name? ")
+    place = input("could visit one place in the world, where would you go? ")
+
+    response[name] = place
+
+    repeat:str = input("would you like to let someone response? (yes/ no)")
+    if repeat.lower() == "yes":
+        polling_active = False
+
+print("\n Result")
+for name, place in response.items():
+    print(f"{name} would you like to visit {place}")
+
+    
