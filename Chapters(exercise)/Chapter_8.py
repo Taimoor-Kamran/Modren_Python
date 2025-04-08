@@ -52,4 +52,10 @@ make_shirt(size="Small", message="Never give up.")
 # Call your function for three different cities, at least one of which is not in the
 # default country.
 
+def describe_city(city, country="United State America" ):
+    print(f"such as {city} is in {country}")
+
+describe_city("Texas")
+describe_city("Karachi", "Pakistan")
+describe_city("Berlin", "Germany")
 
