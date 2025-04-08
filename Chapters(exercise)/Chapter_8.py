@@ -24,5 +24,11 @@ favorite_book("Alice in Wonderland")
 # Call the function once using positional arguments to make a shirt. Call the
 # function a second time using keyword arguments.
 
-def make_shirt():
-    print("")
+def make_shirt(size, message):
+    print(f"The shirt size is '{size}' and the message on it says: '{message}'" )
+
+
+make_shirt("Meduim", "Code like a pool.")
+make_shirt(size="Meduim", message="Code like a pool.")
+
+
