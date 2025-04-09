@@ -107,11 +107,23 @@ print(album3)
 # information, call make_album() with the user’s input and print the dictionary
 # that’s created. Be sure to include a quit value in the while loop.
 
-active = True
+def make_album(artist_name, album_title):
+    album = {
+        "artist" : artist_name,
+        "album" : album_title,
+    }
+    return album
 
-make_album = {}
+while True:
+    print("Enter 'quit' at any time to exit.")
+    
+    artist = input("Enter your favourite artist:")
+    if artist.lower() == 'quit':
+        break
 
-while active:
-    album: str = input("Enter an favorite album.")
-    artist: str = input("Enter an favorite artist.")
-    title: str = input("Enter an favorite title.")
+    title = input("Enter your favourite album tilte:")
+    if title.lower() == 'quit':
+        break
+
+    album = make_album(artist, title)
+    print("Album info:", album)
