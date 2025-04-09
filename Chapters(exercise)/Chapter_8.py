@@ -151,3 +151,25 @@ show_message(text_message)
 # calling the function, print both of your lists to make sure the messages were
 # moved correctly.
 
+
+def send_messages(messages, sent_messages):
+    while messages:
+        current_message = messages.pop(0)
+        print(f"Sending message", {current_message})
+        sent_messages.append(current_message)
+
+
+text_message:list[str] = [
+    "How are you",
+    "How was your day going so far so good",
+    "what's your plan for weekend",
+    "And what about work",
+    "And what about assignment"
+]
+
+sent_messages: list[str] = []
+
+send_messages(text_message, sent_messages)
+
+print(f"\nOrignal message list (should be empty now), {text_message}")
+print(f"\Sent message list, {sent_messages}")
