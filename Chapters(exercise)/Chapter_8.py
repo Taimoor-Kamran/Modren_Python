@@ -131,3 +131,16 @@ while True:
 # 8-9. Messages: Make a list containing a series of short text messages. Pass the
 # list to a function called show_messages(), which prints each text message.
 
+def show_message(messages):
+    for message in messages:
+        print(message)
+
+text_message:list[str] = [
+    "How are you",
+    "How was your day going so far so good",
+    "what's your plan for weekend",
+    "And what about work",
+    "And what about assignment"
+]
+
+show_message(text_message)
