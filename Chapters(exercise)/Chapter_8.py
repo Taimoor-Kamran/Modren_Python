@@ -204,3 +204,14 @@ print(f"\nSent message list , {sent_messages}")
 # items as the function call provides, and it should print a summary of the sand-
 # wich that’s being ordered. Call the function three times, using a different num-
 # ber of arguments each time.
+
+def sandwich(*items):
+    print("\nMaking a sandwich with the following items:")
+    for item in items:
+        print(f"- {item}")
+    print("Your sandwich is ready!\n")
+
+# Calling the function with different number of arguments
+sandwich('cheese', 'tomato', 'lettuce')
+sandwich('chicken', 'mayo')
+sandwich('beef', 'onion', 'mustard', 'pickles')
