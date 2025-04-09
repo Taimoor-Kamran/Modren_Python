@@ -151,13 +151,11 @@ show_message(text_message)
 # calling the function, print both of your lists to make sure the messages were
 # moved correctly.
 
-
-def send_messages(messages, sent_messages):
+def send_message(messages, sent_messages):
     while messages:
         current_message = messages.pop(0)
         print(f"Sending message", {current_message})
         sent_messages.append(current_message)
-
 
 text_message:list[str] = [
     "How are you",
@@ -167,9 +165,14 @@ text_message:list[str] = [
     "And what about assignment"
 ]
 
-sent_messages: list[str] = []
+sent_messages:list[str] = []
 
-send_messages(text_message, sent_messages)
+send_message(text_message, sent_messages)
 
-print(f"\nOrignal message list (should be empty now), {text_message}")
-print(f"\Sent message list, {sent_messages}")
+print(f"\nOrignal message list ('should be empty now:'), {text_message}")
+print(f"\nSent message list , {sent_messages}")
+
+# 8-11. Archived Messages: Start with your work from Exercise 8-10. Call the func-
+# tion send_messages() with a copy of the list of messages. After calling the func-
+# tion, print both of your lists to show that the original list has retained its messages.
+
