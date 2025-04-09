@@ -176,3 +176,24 @@ print(f"\nSent message list , {sent_messages}")
 # tion send_messages() with a copy of the list of messages. After calling the func-
 # tion, print both of your lists to show that the original list has retained its messages.
 
+
+def send_message(messages, sent_messages):
+    while messages:
+        current_message = messages.pop(0)
+        print(f"Sending message", {current_message})
+        sent_messages.append(current_message)
+
+text_message:list[str] = [
+    "How are you",
+    "How was your day going so far so good",
+    "what's your plan for weekend",
+    "And what about work",
+    "And what about assignment"
+]
+
+sent_messages:list[str] = []
+
+send_message(text_message[:], sent_messages)
+
+print(f"\nOrignal message list ('should be empty now:'), {text_message}")
+print(f"\nSent message list , {sent_messages}")
