@@ -107,5 +107,11 @@ print(album3)
 # information, call make_album() with the user’s input and print the dictionary
 # that’s created. Be sure to include a quit value in the while loop.
 
+active = True
+
 make_album = {}
 
+while active:
+    album: str = input("Enter an favorite album.")
+    artist: str = input("Enter an favorite artist.")
+    title: str = input("Enter an favorite title.")
