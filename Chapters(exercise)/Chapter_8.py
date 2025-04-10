@@ -257,3 +257,7 @@ def build_profile(first_name, last_name, **userinfo):
 # the number of songs, add that value to the album’s dictionary. Make at least
 # one new function call that includes the number of songs on an album.
 
+# 8-8. User Albums: Start with your program from Exercise 8-7. Write a while
+# loop that allows users to enter an album’s artist and title. Once you have that
+# information, call make_album() with the user’s input and print the dictionary
+# that’s created. Be sure to include a quit value in the while loop.
