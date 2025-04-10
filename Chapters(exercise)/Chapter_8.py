@@ -261,3 +261,6 @@ def build_profile(first_name, last_name, **userinfo):
 # loop that allows users to enter an album’s artist and title. Once you have that
 # information, call make_album() with the user’s input and print the dictionary
 # that’s created. Be sure to include a quit value in the while loop.
+
+# 8-9. Messages: Make a list containing a series of short text messages. Pass the
+# list to a function called show_messages(), which prints each text message.
