@@ -309,3 +309,5 @@ def build_profile(first_name, last_name, **userinfo):
 # import module_name as mn
 # from module_name import *
 
+# 8-17. Styling Functions: Choose any three programs you wrote for this chapter,
+# and make sure they follow the styling guidelines described in this section.
