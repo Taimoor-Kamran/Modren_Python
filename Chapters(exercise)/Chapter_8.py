@@ -232,3 +232,10 @@ def build_profile(first_name, last_name, **userinfo):
 # by default with a message that reads I love Python. Make a large shirt and a
 # medium shirt with the default message, and a shirt of any size with a different
 # message.
+
+
+# 8-5. Cities: Write a function called describe_city() that accepts the name of
+# a city and its country. The function should print a simple sentence, such as
+# Reykjavik is in Iceland. Give the parameter for the country a default value.
+# Call your function for three different cities, at least one of which is not in the
+# default country.
