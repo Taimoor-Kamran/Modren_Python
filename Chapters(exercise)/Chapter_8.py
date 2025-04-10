@@ -270,3 +270,7 @@ def build_profile(first_name, last_name, **userinfo):
 # moves each message to a new list called sent_messages as it’s printed. After
 # calling the function, print both of your lists to make sure the messages were
 # moved correctly.
+
+# 8-11. Archived Messages: Start with your work from Exercise 8-10. Call the func-
+# tion send_messages() with a copy of the list of messages. After calling the func-
+# tion, print both of your lists to show that the original list has retained its messages.
