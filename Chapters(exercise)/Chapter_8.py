@@ -239,3 +239,10 @@ def build_profile(first_name, last_name, **userinfo):
 # Reykjavik is in Iceland. Give the parameter for the country a default value.
 # Call your function for three different cities, at least one of which is not in the
 # default country.
+
+# 8-6. City Names: Write a function called city_country() that takes in the name
+# of a city and its country. The function should return a string formatted like this:
+# "Santiago, Chile"
+# Call your function with at least three city-country pairs, and print the values
+# that are returned.
+
