@@ -251,5 +251,9 @@ def build_profile(first_name, last_name, **userinfo):
 # album title, and it should return a dictionary containing these two pieces of
 # information. Use the function to make three dictionaries representing different
 # albums. Print each return value to show that the dictionaries are storing the
-# album information correctly.
+# # album information correctly.
+# Use None to add an optional parameter to make_album() that allows you to
+# store the number of songs on an album. If the calling line includes a value for
+# the number of songs, add that value to the album’s dictionary. Make at least
+# one new function call that includes the number of songs on an album.
 
