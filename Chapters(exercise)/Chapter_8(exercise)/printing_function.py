@@ -17,3 +17,5 @@ def show_completed_models(completed_models):
         print(model)
 
 
+def new_fun(name):
+    print(f"{name}")
