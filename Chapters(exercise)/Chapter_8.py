@@ -220,13 +220,17 @@ sandwich('beef', 'onion', 'mustard', 'pickles')
 # profile of yourself by calling build_profile(), using your first and last names
 # and three other key-value pairs that describe you.
 
-def build_profile(first_name, last_name, **userinfo):
+def build_profile(first_name, last_name, **user_info):
     profile = {}
-    profile['first_name'] = first_name,
-    profile['last_name'] = last_name,
-    for key, value in userinfo.items():
+    profile['first_name'] = first_name
+    profile['last_name'] = last_name
+    for key, value in user_info.items():
         profile[key] = value
     return profile
+
+my_profile = build_profile("Taimoor", "Kamran",age = 18, city = "Karachi", goal = "Become a programmer")
+
+print(my_profile)
 
 # 8-4. Large Shirts: Modify the make_shirt() function so that shirts are large
 # by default with a message that reads I love Python. Make a large shirt and a
