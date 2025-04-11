@@ -244,7 +244,17 @@ print(my_profile)
 # Print the dictionary that’s returned to make sure all the information was
 # stored correctly.
 
+def make_info(manufacture , model, **car_info):
+    cars = {}
+    cars ['manufacture'] = manufacture
+    cars ['model'] = model
+    for key, value in car_info.items():
+        cars[key] = value
+    return cars
 
+my_car = make_info("subaru", "outback", color="blue", two_package=True)
+
+print(my_car)
 # 8-15. Printing Models: Put the functions for the example printing_models.py in a
 # separate file called printing_functions.py. Write an import statement at the top
 # of printing_models.py, and modify the file to use the imported functions.
