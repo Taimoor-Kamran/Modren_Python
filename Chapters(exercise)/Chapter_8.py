@@ -260,7 +260,7 @@ print(my_car)
 # separate file called printing_functions.py. Write an import statement at the top
 # of printing_models.py, and modify the file to use the imported functions.
 
-
+# if you want to see code so you can go Chapter_8(exercise)
 
 # 8-16. Imports: Using a program you wrote that has one function in it, store that
 # function in a separate file. Import the function into your main program file, and
