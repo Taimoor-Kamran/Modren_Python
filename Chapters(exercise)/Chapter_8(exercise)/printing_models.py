@@ -11,14 +11,14 @@ show_completed_models(completed_models)
 import printing_function
 printing_function.new_fun("Taimoor")
 
-from  printing_function import new_fun
+from printing_function import new_fun
 new_fun("Taimoor (2)")
 
 from printing_function import new_fun as fun
 fun("Taimoor (3)")
 
 import printing_function as g
-g("Taimoor (4)")    
+g.new_fun("Taimoor (4)")    
 
 from printing_function import *
 new_fun("Taimoor (5)")
