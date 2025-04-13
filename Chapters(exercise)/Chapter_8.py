@@ -271,7 +271,19 @@ print(my_car)
 # import module_name as mn
 # from module_name import *
 
-
-
 # 8-17. Styling Functions: Choose any three programs you wrote for this chapter,
 # and make sure they follow the styling guidelines described in this section.
+
+# Original (possibly unstyled):
+
+def favorite_booke(title):
+    print(f"One of the favorite book is {title}")
+
+
+print("War and Peace")
+
+def favorite_book(title: str) -> None:
+    print(f"One of the favorite book is {title}")
+
+favorite_book("Alice of Wonderland")
+
