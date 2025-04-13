@@ -279,11 +279,23 @@ print(my_car)
 def favorite_booke(title):
     print(f"One of the favorite book is {title}")
 
+favorite_book("War and Peace")
 
-print("War and Peace")
+# Styled Version (PEP 8):
 
 def favorite_book(title: str) -> None:
     print(f"One of the favorite book is {title}")
 
 favorite_book("Alice of Wonderland")
 
+def display_message() -> None:
+    print("In this chapter, we are learning about functions.")
+
+display_message()
+
+def describe_city(city: str, country: str = "Pakistan"):
+    print(f"{city} and is {country}")
+
+describe_city("Karachi")
+describe_city("Lahore")
+describe_city("tokyo", "Japan")
