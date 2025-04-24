@@ -44,11 +44,13 @@ class Restaurent:
     def open_restaurant(self):
         print(f"{self.restaureant_name} is now open")
 
-my_restaurant: Restaurant = Restaurant("Tasty Bites", "Italian")
-my_restaurant: Restaurant = Restaurant("Spice Hub", "Indian")
-my_restaurant: Restaurant = Restaurant("Sushi World", "Japanese")
+my_restaurant1: Restaurant = Restaurant("Tasty Bites", "Italian")
+my_restaurant2: Restaurant = Restaurant("Spice Hub", "Indian")
+my_restaurant3: Restaurant = Restaurant("Sushi World", "Japanese")
 
-
+my_restaurant1.describe_restaurant()
+my_restaurant2.describe_restaurant()
+my_restaurant3.describe_restaurant()
 
 # 9-3. Users: Make a class called User. Create two attributes called first_name
 # and last_name, and then create several other attributes that are typically stored
