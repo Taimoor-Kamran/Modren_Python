@@ -68,9 +68,13 @@ class User:
         self.email = email
 
     def describe_user(self):
-        print()
+        print(f"Name: {self.first_name} {self.last_name}")
+        print(f"age: {self.age}")
+        print(f"location: {self.location}")
+        print(f"email: {self.email}")
 
     def greet_user(self):
+        
 
 # 9-4. Number Served: Start with your program from Exercise 9-1 (page 162).
 # Add an attribute called number_served with a default value of 0. Create an
