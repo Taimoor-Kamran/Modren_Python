@@ -59,6 +59,11 @@ my_restaurant3.describe_restaurant()
 # Create several instances representing different users, and call both meth-
 # ods for each user.
 
+class User:
+    def __init__(self, first_name, last_name):
+        
+
+
 # 9-4. Number Served: Start with your program from Exercise 9-1 (page 162).
 # Add an attribute called number_served with a default value of 0. Create an
 # instance called restaurant from this class. Print the number of customers the
