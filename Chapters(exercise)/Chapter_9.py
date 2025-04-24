@@ -14,7 +14,13 @@ class Restaurant:
         self.cuisine_type = cuisine_type
 
     def describe_restaurant(self):
-        print(f"")
+        print(f"Restaurant Name: {self.restaurant_name}")
+        print(f"Cuisine_type: {self.cuisine_type}")
+
+    def open_restaurant(self):
+        print(f"{self.restaurant_name} now is open.")
+
+    
 
 # 9-2. Three Restaurants: Start with your class from Exercise 9-1. Create three
 # different instances from the class, and call describe_restaurant() for each
