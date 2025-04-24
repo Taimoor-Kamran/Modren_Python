@@ -37,6 +37,8 @@ class Restaurent:
         self.restaureant_name = restaureant_name
         self.cuisine_type = cuisine_type
         
+    def describe_restaurant():
+
 
 # 9-3. Users: Make a class called User. Create two attributes called first_name
 # and last_name, and then create several other attributes that are typically stored
