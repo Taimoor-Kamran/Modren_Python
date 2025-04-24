@@ -61,8 +61,12 @@ my_restaurant3.describe_restaurant()
 
 class User:
     def __init__(self, first_name: str, last_name: str):
-        
+        self.first_name = first_name
+        self.last_name = last_name
 
+    def describe_user(self):
+
+    def greet_user(self):
 
 # 9-4. Number Served: Start with your program from Exercise 9-1 (page 162).
 # Add an attribute called number_served with a default value of 0. Create an
