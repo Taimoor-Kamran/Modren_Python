@@ -41,7 +41,8 @@ class Restaurent:
         print(f"Restaurant Name: {self.restaureant_name}")
         print(f"Cuisine_type: {self.cuisine_type}")
 
-
+    def open_restaurant(self):
+        print(f"{self.restaureant_name} is now open")
 
 # 9-3. Users: Make a class called User. Create two attributes called first_name
 # and last_name, and then create several other attributes that are typically stored
