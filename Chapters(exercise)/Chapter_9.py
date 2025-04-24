@@ -44,6 +44,10 @@ class Restaurent:
     def open_restaurant(self):
         print(f"{self.restaureant_name} is now open")
 
+my_restaurant: Restaurant = Restaurant("Tasty Bites", "Italian")
+my_restaurant: Restaurant = Restaurant("Spice Hub", "Indian")
+my_restaurant: Restaurant = Restaurant("Spice Hub", "Indian")
+
 # 9-3. Users: Make a class called User. Create two attributes called first_name
 # and last_name, and then create several other attributes that are typically stored
 # in a user profile. Make a method called describe_user() that prints a summary
