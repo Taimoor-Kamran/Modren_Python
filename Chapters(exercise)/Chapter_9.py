@@ -60,11 +60,15 @@ my_restaurant3.describe_restaurant()
 # ods for each user.
 
 class User:
-    def __init__(self, first_name: str, last_name: str):
+    def __init__(self, first_name: str, last_name: str, age: int, location: str, email: str):
         self.first_name = first_name
         self.last_name = last_name
+        self.age = age
+        self.location = location
+        self.email = email
 
     def describe_user(self):
+        print()
 
     def greet_user(self):
 
