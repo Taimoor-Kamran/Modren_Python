@@ -25,7 +25,8 @@ my_restaurant:Restaurant = Restaurant("Tasty Bites", "Italian")
 print(my_restaurant.restaurant_name)
 print(my_restaurant.cuisine_type)
 
-
+my_restaurant.describe_restaurant()
+my_restaurant.open_restaurant()
 
 # 9-2. Three Restaurants: Start with your class from Exercise 9-1. Create three
 # different instances from the class, and call describe_restaurant() for each
