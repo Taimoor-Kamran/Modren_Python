@@ -37,7 +37,10 @@ class Restaurent:
         self.restaureant_name = restaureant_name
         self.cuisine_type = cuisine_type
         
-    def describe_restaurant():
+    def describe_restaurant(self):
+        print(f"Restaurant Name: {self.restaureant_name}")
+        print(f"Cuisine_type: {self.cuisine_type}")
+
 
 
 # 9-3. Users: Make a class called User. Create two attributes called first_name
