@@ -34,6 +34,8 @@ my_restaurant.open_restaurant()
 
 class Restaurent:
     def __init__(self, restaureant_name: str, cuisine_type: str):
+        self.restaureant_name = restaureant_name
+        self.cuisine_type = cuisine_type
         
 
 # 9-3. Users: Make a class called User. Create two attributes called first_name
