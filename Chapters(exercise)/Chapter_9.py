@@ -104,7 +104,6 @@ user3.greet_user()
 # you like that could represent how many customers were served in, say, a day of
 # business.
 
-
 class Restaurent:
     def __init__(self, restaurent_name:str, cuisine_type:str):
         self.restaurent_name = restaurent_name
@@ -138,3 +137,4 @@ print(f"Set number served: {restaurant.number_served}")
 
 restaurant.increment_number_served(50)
 print(f"After increment, total customers served: {restaurant.restaurent_name}")
+
