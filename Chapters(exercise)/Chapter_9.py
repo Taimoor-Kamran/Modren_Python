@@ -76,6 +76,15 @@ class User:
     def greet_user(self):
         print(f"Hello, {self.first_name} {self.last_name}! Welcome Back.")
 
+user1: User = User("Taimoor", "Kamran", 18, "Karachi", "muhammadtaimoor2006@gmail.com")
+user2: User = User("AbdulRehman", "Shahid", 19, "Karachi", "rehman444@gmail.com")
+user3: User = User("Ahmed", "Tariq", 18, "Karachi", "ahmedx@gmail.com")
+
+user1.describe_user()
+user1.greet_user()
+
+
+
 # 9-4. Number Served: Start with your program from Exercise 9-1 (page 162).
 # Add an attribute called number_served with a default value of 0. Create an
 # instance called restaurant from this class. Print the number of customers the
