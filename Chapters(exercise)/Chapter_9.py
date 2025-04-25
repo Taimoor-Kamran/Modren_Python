@@ -97,6 +97,7 @@ user3.greet_user()
 # Add a method called set_number_served() that lets you set the number of
 # customers that have been served. Call this method with a new number and print
 # the value again.
+
 # Add a method called increment_number_served() that lets you increment
 # the number of customers who’ve been served. Call this method with any number
 # you like that could represent how many customers were served in, say, a day of
