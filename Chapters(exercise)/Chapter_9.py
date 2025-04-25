@@ -161,3 +161,8 @@ print(f"After increment, total customers served: {restaurant.restaurent_name}")
 # Write a method called show_privileges() that lists the administrator’s set of
 # privileges. Create an instance of Admin, and call your method.
 
+# 9-8. Privileges: Write a separate Privileges class. The class should have one
+# attribute, privileges, that stores a list of strings as described in Exercise 9-7.
+# Move the show_privileges() method to this class. Make a Privileges instance
+# as an attribute in the Admin class. Create a new instance of Admin and use your
+# method to show its privileges.
