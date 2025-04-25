@@ -94,6 +94,12 @@ user3.greet_user()
 # instance called restaurant from this class. Print the number of customers the
 # restaurant has served, and then change this value and print it again.
 
+class Restaurent:
+    def __init__(self, restaurant_name:str, cuisine_type: str):
+        self.restaurent_name = restaurant_name
+        self.cuisine_type = cuisine_type
+        
+
 # Add a method called set_number_served() that lets you set the number of
 # customers that have been served. Call this method with a new number and print
 # the value again.
