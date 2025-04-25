@@ -74,7 +74,7 @@ class User:
         print(f"email: {self.email}")
 
     def greet_user(self):
-        
+        print(f"Hello, {self.first_name} {self.last_name}! Welcome Back.")
 
 # 9-4. Number Served: Start with your program from Exercise 9-1 (page 162).
 # Add an attribute called number_served with a default value of 0. Create an
