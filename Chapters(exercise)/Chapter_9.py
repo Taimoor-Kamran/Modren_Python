@@ -146,3 +146,10 @@ print(f"After increment, total customers served: {restaurant.restaurent_name}")
 # several times. Print the value of login_attempts to make sure it was incremented
 # properly, and then call reset_login_attempts(). Print login_attempts again to
 # make sure it was reset to 0.
+
+# 9-6. Ice Cream Stand: An ice cream stand is a specific kind of restaurant. Write
+# a class called IceCreamStand that inherits from the Restaurant class you wrote in
+# Exercise 9-1 (page 162) or Exercise 9-4 (page 166). Either version of the class
+# will work; just pick the one you like better. Add an attribute called flavors that
+# stores a list of ice cream flavors. Write a method that displays these flavors.
+# Create an instance of IceCreamStand, and call this method.
