@@ -108,10 +108,8 @@ class Restaurent:
         print(f"{self.restaurent_name} is now open!")
 restaurant = Restaurent("Tasty Bites", "Italian")
 
-# Printing the number of customers served (default)
 print(f"Customers served: {restaurant.number_served}")
 
-# Changing the value
 restaurant.number_served = 25
 print(f"Updated customers served: {restaurant.number_served}")
 
