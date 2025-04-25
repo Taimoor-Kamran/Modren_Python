@@ -83,7 +83,11 @@ user3: User = User("Ahmed", "Tariq", 18, "Karachi", "ahmedx@gmail.com")
 user1.describe_user()
 user1.greet_user()
 
+user2.describe_user()
+user2.greet_user()
 
+user3.describe_user()
+user3.greet_user()
 
 # 9-4. Number Served: Start with your program from Exercise 9-1 (page 162).
 # Add an attribute called number_served with a default value of 0. Create an
