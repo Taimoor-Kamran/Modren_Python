@@ -153,3 +153,11 @@ print(f"After increment, total customers served: {restaurant.restaurent_name}")
 # will work; just pick the one you like better. Add an attribute called flavors that
 # stores a list of ice cream flavors. Write a method that displays these flavors.
 # Create an instance of IceCreamStand, and call this method.
+
+# 9-7. Admin: An administrator is a special kind of user. Write a class called
+# Admin that inherits from the User class you wrote in Exercise 9-3 (page 162)
+# or Exercise 9-5 (page 167). Add an attribute, privileges, that stores a list of
+# strings like "can add post", "can delete post", "can ban user", and so on.
+# Write a method called show_privileges() that lists the administrator’s set of
+# privileges. Create an instance of Admin, and call your method.
+
