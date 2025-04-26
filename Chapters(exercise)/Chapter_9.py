@@ -173,16 +173,3 @@ print(f"After increment, total customers served: {restaurant.restaurent_name}")
 # an electric car with a default battery size, call get_range() once, and then
 # call get_range() a second time after upgrading the battery. You should see an
 # increase in the car’s range.
-
-# “This is a very simple test. A cotton swab kit will be delivered to your home.
-
-# You just need to gently touch it inside your mouth to collect your saliva sample.
-
-# After that, simply place the swab near your doorstep. The shipment person will come, pick it up, and take it to the lab.
-
-# This test helps detect any current or upcoming health conditions in your body.
-
-# It will let you know what kind of diseases you may already have and what health issues could come in the future.
-
-# And the best part — it’s totally free of cost for you.”
-
