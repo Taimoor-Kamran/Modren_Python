@@ -171,7 +171,9 @@ class Restaurent:
         self.login_attempts += 1
 
     def reset_login_attempts(self):
-        self.login_attempts -= 1
+        self.login_attempts = 0
+
+
 
 restaurant = Restaurent("Tasty Bites", "Italian")
 
