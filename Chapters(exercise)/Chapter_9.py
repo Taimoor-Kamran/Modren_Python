@@ -148,10 +148,11 @@ print(f"After increment, total customers served: {restaurant.restaurent_name}")
 # make sure it was reset to 0.
 
 class Restaurent:
-    def __init__(self, restaurent_name:str, cuisine_type:str):
+    def __init__(self, restaurent_name:str, cuisine_type:str, login_attempts):
         self.restaurent_name = restaurent_name
         self.cuisine_type = cuisine_type
         self.number_served = 0
+        self.login_attempts = login_attempts
 
     def describe_restaurant(self):
         print(f"Restaurant Name: {self.restaurent_name}")
