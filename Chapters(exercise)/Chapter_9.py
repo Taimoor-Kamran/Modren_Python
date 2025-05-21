@@ -147,6 +147,39 @@ print(f"After increment, total customers served: {restaurant.restaurent_name}")
 # properly, and then call reset_login_attempts(). Print login_attempts again to
 # make sure it was reset to 0.
 
+class Restaurent:
+    def __init__(self, restaurent_name:str, cuisine_type:str):
+        self.restaurent_name = restaurent_name
+        self.cuisine_type = cuisine_type
+        self.number_served = 0
+
+    def describe_restaurant(self):
+        print(f"Restaurant Name: {self.restaurent_name}")
+        print(f"Cuisine_type: {self.cuisine_type}")
+
+    def open_restaurant(self):
+        print(f"{self.restaurent_name} is now open!")
+
+    def set_number_served(self, number):
+        self.number_served = number
+
+    def increment_number_served(self, additional_customers):
+        self.number_served += additional_customers
+
+
+restaurant = Restaurent("Tasty Bites", "Italian")
+
+print(f"Customers served: {restaurant.number_served}")
+
+restaurant.number_served = 25
+print(f"Updated customers served: {restaurant.number_served}")
+
+
+restaurant.set_number_served(100)
+print(f"Set number served: {restaurant.number_served}")
+
+restaurant.increment_number_served(50)
+print(f"After increment, total customers served: {restaurant.restaurent_name}")
 
 
 # 9-6. Ice Cream Stand: An ice cream stand is a specific kind of restaurant. Write
