@@ -152,7 +152,7 @@ class Restaurent:
         self.restaurent_name = restaurent_name
         self.cuisine_type = cuisine_type
         self.number_served = 0
-        self.login_attempts = login_attempts
+        self.login_attempts = 0
 
     def describe_restaurant(self):
         print(f"Restaurant Name: {self.restaurent_name}")
@@ -166,6 +166,9 @@ class Restaurent:
 
     def increment_number_served(self, additional_customers):
         self.number_served += additional_customers
+
+    def increment_login_attempts(self,):
+        self.login_attempts += 1
 
 
 restaurant = Restaurent("Tasty Bites", "Italian")
