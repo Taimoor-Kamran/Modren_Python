@@ -185,6 +185,9 @@ print("Login attempts after reset", m1.login_attempts)
 # stores a list of ice cream flavors. Write a method that displays these flavors.
 # Create an instance of IceCreamStand, and call this method.
 
+class IceCreamStand:
+
+
 # 9-7. Admin: An administrator is a special kind of user. Write a class called
 # Admin that inherits from the User class you wrote in Exercise 9-3 (page 162)
 # or Exercise 9-5 (page 167). Add an attribute, privileges, that stores a list of
