@@ -166,7 +166,7 @@ class User:
         self.login_attempts = 0
 
 
-
+m1: User = User("Taimoor", "Kamran", )
 
 # 9-6. Ice Cream Stand: An ice cream stand is a specific kind of restaurant. Write
 # a class called IceCreamStand that inherits from the Restaurant class you wrote in
