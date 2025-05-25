@@ -238,7 +238,8 @@ class User:
         self.login_attempts = 0
 
 class Admin(User):
-    def __init__(self, first_name, last_name)
+    def __init__(self, first_name, last_name, login_attempts):
+        super().__init(first_name, last_name, login_attempts)
 
 
 
