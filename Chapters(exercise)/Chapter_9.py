@@ -240,9 +240,10 @@ class User:
 class Admin(User):
     def __init__(self, first_name, last_name, login_attempts, privileges):
         super().__init(first_name, last_name, login_attempts)
+        self.privileges = privileges
 
-
-    def show_privileges():
+    def show_privileges(self):
+        
 
 
 # 9-8. Privileges: Write a separate Privileges class. The class should have one
