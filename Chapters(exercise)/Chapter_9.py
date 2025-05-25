@@ -335,3 +335,6 @@ class Car:
     
     def describe_car(self):
         print(f"{self.year} {self.model} {self.year}")
+
+class ElectircCar(Car):
+    
