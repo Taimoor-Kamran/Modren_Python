@@ -199,7 +199,7 @@ class Restaurant:
         print(f"{self.name} is now open.")
 
 class IceCreamStand(Restaurant):
-    def __init__(self, name, cuisine_type):
+    def __init__(self, name, cuisine_type="IceCream"):
         super().__init__(name, cuisine_type)
         self.flavors = ["Vanilla", "Chocolate", "Strawberry", "Mango"]
 
