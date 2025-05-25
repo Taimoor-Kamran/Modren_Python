@@ -334,10 +334,12 @@ class Car:
         self.year = year
     
     def describe_car(self):
-        print(f"{self.year} {self.model} {self.year}")
+        print(f"{self.make} {self.model} {self.year}")
 
 class ElectircCar(Car):
     def __init__(self, make, model, year):
         super().__init__(make, model, year)
         self.battery = Battery()
 
+my_ecar: ElectircCar = ElectircCar("Tesla", "Model 3", 2024)
+my_ecar.describe_car()
