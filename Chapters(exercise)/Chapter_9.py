@@ -238,10 +238,11 @@ class User:
         self.login_attempts = 0
 
 class Admin(User):
-    def __init__(self, first_name, last_name, login_attempts):
+    def __init__(self, first_name, last_name, login_attempts, privileges):
         super().__init(first_name, last_name, login_attempts)
 
 
+    def show_privileges():
 
 
 # 9-8. Privileges: Write a separate Privileges class. The class should have one
