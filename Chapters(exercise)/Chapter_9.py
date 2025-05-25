@@ -337,4 +337,7 @@ class Car:
         print(f"{self.year} {self.model} {self.year}")
 
 class ElectircCar(Car):
-    
+    def __init__(self, make, model, year):
+        super().__init__(make, model, year)
+        self.battery = Battery()
+
