@@ -185,18 +185,16 @@ print("Login attempts after reset", m1.login_attempts)
 # stores a list of ice cream flavors. Write a method that displays these flavors.
 # Create an instance of IceCreamStand, and call this method.
 
-
-class Restaurent:
-    def __init__(self, restaurent_name:str, cuisine_type:str):
-        self.restaurent_name = restaurent_name
+class Restaurant:
+    def __init__(self, name: str, cuisine_type: str) -> None:
+        self.name = name
         self.cuisine_type = cuisine_type
-
+        
     def describe_restaurant(self):
-        print(f"Restaurant Name: {self.restaurent_name}")
-        print(f"Cuisine_type: {self.cuisine_type}")
+        print(f"Restaurant Name: {self.name}" )
+        print(f"Restaurant Type: {self.cuisine_type}")
 
-    def open_restaurant(self):
-        print(f"{self.restaurent_name} is now open!")
+
 
 # 9-7. Admin: An administrator is a special kind of user. Write a class called
 # Admin that inherits from the User class you wrote in Exercise 9-3 (page 162)
