@@ -235,6 +235,7 @@ class User:
         self.login_attempts += 1
 
     def reset_login_attempts(self):
+        self.login_attempts = 0
 # 9-8. Privileges: Write a separate Privileges class. The class should have one
 # attribute, privileges, that stores a list of strings as described in Exercise 9-7.
 # Move the show_privileges() method to this class. Make a Privileges instance
