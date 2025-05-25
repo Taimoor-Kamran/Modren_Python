@@ -343,3 +343,7 @@ class ElectircCar(Car):
 
 my_ecar: ElectircCar = ElectircCar("Tesla", "Model 3", 2024)
 my_ecar.describe_car()
+my_ecar.battery.get_range()
+
+my_ecar.battery.upgrade_battery()
+my_ecar.battery.get_range()
