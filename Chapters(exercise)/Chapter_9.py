@@ -361,3 +361,13 @@ my_restaurant: Restaurant = Restaurant("Tasty Bites", "Italian")
 my_restaurant.describe_restaurant()
 my_restaurant.open_restaurent()
 
+# 9-11. Imported Admin: Start with your work from Exercise 9-8 (page 173). Store
+# the classes User, Privileges, and Admin in one module. Create a separate file,
+# make an Admin instance, and call show_privileges() to show that everything is
+# working correctly.
+
+from user_module import Admin
+
+user_admin: Admin = Admin("Taimoor", "Kamran")
+user_admin.describe_user()
+user_admin.privileges.show_privileges()
