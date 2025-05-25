@@ -229,7 +229,12 @@ class User:
         print(f"Name: {self.first_name} {self.last_name}")
 
     def greets(self):
-        print(f'')
+        print(f'Hello, {self.first_name}')
+
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
 # 9-8. Privileges: Write a separate Privileges class. The class should have one
 # attribute, privileges, that stores a list of strings as described in Exercise 9-7.
 # Move the show_privileges() method to this class. Make a Privileges instance
