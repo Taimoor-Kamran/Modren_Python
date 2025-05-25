@@ -311,4 +311,26 @@ class Battery:
     def describe_battery(self):
         print(f"This car has a {self.battery_size}-KWH battery.")
 
-    def get_range()
+
+    def get_range(self):
+        if self.battery_size == 40:
+            range = 150
+        elif self.battery_size == 65:
+            range = 225
+
+        print(f"This car can go about {range} miles on a full charge.")
+
+    def upgrade_battery(self):
+        if self.battery_size < 65:
+            self.battery_size = 65
+            print(f"Battery upgrade to 65 KWH.")
+        else:
+            print(f"Battery is already as 65 KWH or higher.")
+        
+class Car:
+    def __init__(self, make, model, year):
+        self.make = make
+        self.model = model
+        self.year = year
+    
+    def describe_car(self):
