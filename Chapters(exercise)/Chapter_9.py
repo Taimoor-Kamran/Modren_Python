@@ -258,6 +258,32 @@ admin_user.show_privileges()
 # as an attribute in the Admin class. Create a new instance of Admin and use your
 # method to show its privileges.
 
+
+class User:
+    def __init__(self, first_name: str, last_name: str, login_attemps: str) -> None:
+        self.first_name = first_name
+        self.last_name = last_name
+        self.login_attempts = login_attemps
+
+    def describe_user(self):
+        print(f"Name: {self.first_name} {self.last_name}")
+
+    def greets(self):
+        print(f'Hello, {self.first_name}')
+
+    def increment_login_attempts(self):
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        self.login_attempts = 0
+
+
+class Privileges(User):
+    def __init__(self, privileges=None):
+        
+
+
+
 # 9-9. Battery Upgrade: Use the final version of electric_car.py from this section.
 # Add a method to the Battery class called upgrade_battery(). This method
 # should check the battery size and set the capacity to 65 if it isn’t already. Make
