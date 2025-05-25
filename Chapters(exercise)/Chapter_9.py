@@ -239,7 +239,7 @@ class User:
 
 class Admin(User):
     def __init__(self, first_name, last_name, login_attempts=0):
-        super().__init(first_name, last_name, login_attempts)
+        super().__init__(first_name, last_name, login_attempts)
         self.privileges = ["can add post", "can delete post", "can ban user"]
 
     def show_privileges(self):
@@ -247,7 +247,9 @@ class Admin(User):
         for privillege in self.privileges:
             print(f"- {privillege}")
 
-
+admin_user: Admin = Admin("Taimoor", "Kamran")
+admin_user.describe_user()
+admin_user.show_privileges()
 
 
 # 9-8. Privileges: Write a separate Privileges class. The class should have one
