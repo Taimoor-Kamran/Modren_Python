@@ -280,10 +280,24 @@ class User:
 class Privileges:
     def __init__(self, privileges=None):
         if privileges is None:
-            privileges = ["can add user", "can delete user", "can ban user"]
+            privileges = ["can add post", "can delete post", "can ban user"]
         self.privileges = privileges
 
+    def show_privileges(self):
+        print("Privileges:")
+        for privilege in self.privileges:
+            print(f"- {privilege}")
+            
+class Admin(User):
+    def __init__(self, first_name, last_name, login_attemps=0):
+        super().__init__(first_name, last_name, login_attemps)
+        self.privileges = Privileges()
 
+
+
+admin_user: Admin = Admin("Taimoor" ,"Kamran")
+admin_user.describe_user()
+admin_user.privileges.show_privileges()
 
 # 9-9. Battery Upgrade: Use the final version of electric_car.py from this section.
 # Add a method to the Battery class called upgrade_battery(). This method
