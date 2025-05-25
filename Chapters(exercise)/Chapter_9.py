@@ -280,7 +280,7 @@ class User:
 class Privileges:
     def __init__(self, privileges=None):
         if privileges is None:
-            privileges = ["can add user", "can "]
+            privileges = ["can add user", "can delete user", "can ban user"]
         self.privileges = privileges
 
 
