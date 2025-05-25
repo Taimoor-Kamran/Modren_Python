@@ -347,3 +347,17 @@ my_ecar.battery.get_range()
 
 my_ecar.battery.upgrade_battery()
 my_ecar.battery.get_range()
+
+
+# 9-10. Imported Restaurant: Using your latest Restaurant class, store it in a mod-
+# ule. Make a separate file that imports Restaurant. Make a Restaurant instance,
+
+# and call one of Restaurant’s methods to show that the import statement is work-
+# ing properly.
+
+from restaurant import Restaurant
+
+my_restaurant: Restaurant = Restaurant("Tasty Bites", "Italian")
+my_restaurant.describe_restaurant()
+my_restaurant.open_restaurent()
+
