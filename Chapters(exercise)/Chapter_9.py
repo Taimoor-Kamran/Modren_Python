@@ -201,8 +201,16 @@ class Restaurant:
 class IceCreamStand(Restaurant):
     def __init__(self, name, cuisine_type):
         super().__init__(name, cuisine_type)
-        flavors = ["Vanilla", "Chocolate", ""]
+        self.flavors = ["Vanilla", "Chocolate", "Strawberry", "Mango"]
 
+    def display_restaurent(self):
+        print(f"IceCream Flavors available is {self.name}:")
+        for flavor in self.flavors:
+            print(f"- {flavor}")
+
+stand = IceCreamStand("cool cones")
+stand.describe_restaurant()
+stand.display_restaurent()
 
 # 9-7. Admin: An administrator is a special kind of user. Write a class called
 # Admin that inherits from the User class you wrote in Exercise 9-3 (page 162)
