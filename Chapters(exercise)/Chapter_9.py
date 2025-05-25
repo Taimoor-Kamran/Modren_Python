@@ -377,3 +377,7 @@ user_admin.privileges.show_privileges()
 # an Admin instance and call show_privileges() to show that everything is still
 # working correctly.
 
+from admin_module import Admin
+
+my_admin: Admin = Admin("Taimoor", "Kamran")
+
