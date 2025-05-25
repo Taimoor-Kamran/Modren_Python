@@ -280,8 +280,12 @@ class User:
 
 class Privileges(User):
     def __init__(self, privileges=None):
-        
+        if privileges is None:
+            privileges = ["can add post", "can delete post", "can ban user"]
+        self.privileges = privileges
 
+class Admin(Privileges):
+    
 
 
 # 9-9. Battery Upgrade: Use the final version of electric_car.py from this section.
