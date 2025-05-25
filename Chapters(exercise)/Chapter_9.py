@@ -219,6 +219,17 @@ stand.display_restaurent()
 # Write a method called show_privileges() that lists the administrator’s set of
 # privileges. Create an instance of Admin, and call your method.
 
+class User:
+    def __init__(self, first_name: str, last_name: str, login_attemps: str) -> None:
+        self.first_name = first_name
+        self.last_name = last_name
+        self.login_attempts = login_attemps
+
+    def describe_user(self):
+        print(f"Name: {self.first_name} {self.last_name}")
+
+    def greets(self):
+        print(f'')
 # 9-8. Privileges: Write a separate Privileges class. The class should have one
 # attribute, privileges, that stores a list of strings as described in Exercise 9-7.
 # Move the show_privileges() method to this class. Make a Privileges instance
