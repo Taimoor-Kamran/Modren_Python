@@ -293,8 +293,6 @@ class Admin(User):
         super().__init__(first_name, last_name, login_attemps)
         self.privileges = Privileges()
 
-
-
 admin_user: Admin = Admin("Taimoor" ,"Kamran")
 admin_user.describe_user()
 admin_user.privileges.show_privileges()
@@ -305,3 +303,12 @@ admin_user.privileges.show_privileges()
 # an electric car with a default battery size, call get_range() once, and then
 # call get_range() a second time after upgrading the battery. You should see an
 # increase in the car’s range.
+
+class Battery:
+    def __init__(self, battery_size=40):
+        self.battery_size = battery_size
+
+    def describe_battery(self):
+        print(f"This car has a {self.battery_size}-KWH battery.")
+
+    def get_range()
