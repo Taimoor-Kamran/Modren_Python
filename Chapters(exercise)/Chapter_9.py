@@ -194,6 +194,14 @@ class Restaurant:
         print(f"Restaurant Name: {self.name}" )
         print(f"Restaurant Type: {self.cuisine_type}")
 
+    
+    def open_restaurent(self):
+        print(f"{self.name} is now open.")
+
+class IceCreamStand(Restaurant):
+    def __init__(self, name, cuisine_type):
+        super().__init__(name, cuisine_type)
+        flavors = ["Vanilla", "Chocolate", ""]
 
 
 # 9-7. Admin: An administrator is a special kind of user. Write a class called
