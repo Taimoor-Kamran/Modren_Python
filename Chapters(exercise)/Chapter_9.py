@@ -397,3 +397,7 @@ class Die:
         print(random.randint(1, self.sides))
 
 die = Die()
+
+print("Rolling the die 10 times:")
+for _ in range(10):
+    die.roll_die()
