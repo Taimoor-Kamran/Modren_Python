@@ -418,7 +418,8 @@ for _ in range(10):
 
 Lottery = [1,2,3,4,5,6,7,8,9,10,"A","B","C","D","E"]
 
-winning_ticket = random.randint(Lottery, 5)
+winning_ticket = random.sample(Lottery, 5)
 
 print("any ticket matching these 4 numbers or letters wins a prize")
+print("Winning ticket:", winning_ticket)
 
