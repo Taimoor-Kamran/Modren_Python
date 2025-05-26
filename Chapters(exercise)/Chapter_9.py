@@ -388,3 +388,6 @@ user_admin.privileges.show_privileges()
 # roll it 10 times.
 
 
+class Die:
+    def __init__(self, sides=6):
+        self.sides = sides
