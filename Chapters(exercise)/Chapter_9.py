@@ -418,3 +418,5 @@ for _ in range(10):
 
 Lottery = [1,2,3,4,5,6,7,8,9,10,"A","B","C","D","E"]
 
+winning_ticket = random.randint(Lottery, 5)
+
