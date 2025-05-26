@@ -396,8 +396,15 @@ class Die:
     def roll_die(self):
         print(random.randint(1, self.sides))
 
-die = Die()
 
-print("Rolling the die 10 times:")
+print("Rolling the die 6 times:")
+six_sided = Die()
+for _ in range(6):
+    print(six_sided .roll_die())
+
+print("\n Rolling a 10-sided die:")
+ten_sided = Die()
 for _ in range(10):
-    die.roll_die()
+    print(ten_sided.roll_die())
+
+print("")
