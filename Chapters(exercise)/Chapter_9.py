@@ -402,13 +402,11 @@ six_sided = Die(6)
 for _ in range(10):
     print(six_sided.roll_die())
 
-# Create and roll a 10-sided die
 print("\nRolling a 10-sided die:")
 ten_sided = Die(10)
 for _ in range(10):
     print(ten_sided.roll_die())
 
-# Create and roll a 20-sided die
 print("\nRolling a 20-sided die:")
 twenty_sided = Die(20)
 for _ in range(10):
